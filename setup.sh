@@ -79,7 +79,7 @@ fi
 # try to load module manually
 modprobe uinput
 
-FILE_SCRIPT=carhack.py
+FILE_SCRIPT=idrive-kbd.py
 DIR_SCRIPT=`pwd`
 
 FILE_KBD_SERVICE=/etc/systemd/system/can-kbd.service
